@@ -1,14 +1,17 @@
 server:
   port: 7080
 
-ribbon:
-  eureka:
-   enabled: false
+#ribbon:
+#  eureka:
+#   enabled: false
 
-calculate:
-  ribbon:
-    listOfServers: localhost:7070
+#calculate:
+#  ribbon:
+#    listOfServers: localhost:7070
 
-logging:
-  level:
-    org.apache.http: trace
+#logging:
+#  level:
+#    org.apache.http: trace
+
+provider:
+  url: localhost:7070
