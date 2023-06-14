@@ -1,4 +1,6 @@
 server:
+  servlet:
+    context-path: /test
   port: 7070
 
 spring:

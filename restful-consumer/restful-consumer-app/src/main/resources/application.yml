@@ -14,4 +14,4 @@ server:
 #    org.apache.http: trace
 
 provider:
-  url: localhost:7070
+  url: localhost:7070/test
